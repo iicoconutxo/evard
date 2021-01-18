@@ -8,11 +8,12 @@
 
 **Font Generator**
 ```js
-    const evard = require('evard')
-    const text = evard.run({Function: 'font', message: 'hey'})
+const evard = require('evard')
+const text = evard.run({Function: 'font', message: 'hey'})
 
-    console.log(text)
+console.log(text)
 ```
+*Everd's Font Generator Only supports 1 built in font*
 
 **Evern Log**
 ```js

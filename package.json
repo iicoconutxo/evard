@@ -1,7 +1,7 @@
 {
   "name": "evard",
   "version": "1.0.11",
-  "description": "Easy to download!  `npm i evard --save`",
+  "description": "**Easy to download! In the command bar enter this line of code:** `npm i evard --save`",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
