@@ -7,13 +7,13 @@
 # Usage
 
 **Font Generator**
+*Everd's Font Generator Only supports 1 built in font*
 ```js
 const evard = require('evard')
 const text = evard.run({Function: 'font', message: 'hey'})
 
 console.log(text)
 ```
-*Everd's Font Generator Only supports 1 built in font*
 
 **Evern Log**
 ```js
