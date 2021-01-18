@@ -1,6 +1,6 @@
 {
   "name": "evard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy to download!  `npm i evard --save`",
   "main": "index.js",
   "scripts": {
