@@ -1,3 +1,4 @@
+const { settings } = require("cluster");
 const fs = require("fs");
 
 function ErrorLog(ErrorMessage) {
@@ -44,18 +45,15 @@ function run(Settings) {
             ErrorLog("Didn't find message for: evern.on({message: 'nil'}")
         }
     
-    } else if(Settings.Function === 'log') {
-        if(Settings.message) {
-            console.log(Settings.message)
-        } else {
-            ErrorLog("Didn't find message for: evern.on({message: 'nil'}")
-        }
-    
+    } else if(Settings.Function === 'add') {
+        let sfgc = Settings.one + Settings.two
+        return sfgc
     } else {
         ErrorLog("Didn't find Function for: evern.on({Function: 'nil'}")
     }
 
 }
+
 
 module.exports.run = run;
 module.exports.log = log;

@@ -2,7 +2,7 @@
 
 **Easy to download! In the command bar enter this line of code:** `npm i evard --save` 
 
-*Evard is a simple Node Package that makes this simple for you to use in JS*
+*Evard is a simple Node Package that many futures for you to use in JS*
 
 # Usage
 
@@ -21,3 +21,15 @@ const evard = require('evard')
 
 evard.log('hey')
 ```
+
+**JS Add API**
+```js
+const evard = require('evard')
+const Answer = evard.run({Function: 'add', one: 1, two: 2})
+
+console.log(Answer)
+```
+
+
+*Evard is in beta more functions being added soon...*
+# Version 1.0.12
