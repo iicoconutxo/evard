@@ -1,7 +1,13 @@
 # Evererd Test
 
 Easy to download! 
-`npm i evererd --save`
+`npm i evard --save`
 
 
-WIP
+```
+const evard = require('evard')
+
+const text = await evard.run(Function: 'font', message: 'hey')
+
+console.log(text)
+```

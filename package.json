@@ -1,0 +1,19 @@
+{
+  "name": "evard",
+  "version": "1.0.0",
+  "description": "Easy to download!  `npm i evard --save`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iicoconutxo/evard.git"
+  },
+  "author": "iicoconutxo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iicoconutxo/evard/issues"
+  },
+  "homepage": "https://github.com/iicoconutxo/evard#readme"
+}
