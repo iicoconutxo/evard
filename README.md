@@ -13,3 +13,10 @@
 
     console.log(text)
 ```
+
+**Evern Log**
+```js
+const evard = require('evard')
+
+evard.log('hey')
+```
