@@ -33,3 +33,5 @@ console.log(Answer)
 
 *Evard is in beta more functions being added soon...*
 # Version 1.0.12
+
+*(CELA™️)*

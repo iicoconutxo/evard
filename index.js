@@ -54,6 +54,5 @@ function run(Settings) {
 
 }
 
-
 module.exports.run = run;
 module.exports.log = log;
