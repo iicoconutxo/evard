@@ -7,7 +7,7 @@ Easy to download!
 ```
 const evard = require('evard')
 
-const text = await evard.run(Function: 'font', message: 'hey')
+const text = await evard.run({Function: 'font', message: 'hey'})
 
 console.log(text)
 ```
