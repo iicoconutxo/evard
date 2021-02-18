@@ -10,7 +10,7 @@
 *Everd's Font Generator Only supports 1 built in font for* **NOW**
 ```js
 const evard = require('evard')
-const text = evard.run({Function: 'font', message: 'hey'})
+const text = evard.run('font', 'Text To Return Here')
 
 console.log(text)
 ```
@@ -22,16 +22,8 @@ const evard = require('evard')
 evard.log('hey')
 ```
 
-**JS Add API**
-```js
-const evard = require('evard')
-const Answer = evard.run({Function: 'add', one: 1, two: 2})
-
-console.log(Answer)
-```
-
 
 *Evard is in beta more functions being added soon...*
-# Version 1.0.12
+# Version 1.1.0
 
 *(CELA™️)*

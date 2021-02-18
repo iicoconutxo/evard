@@ -20,11 +20,32 @@ function log(Args) {
 
 
 
-function run(Settings) {
+function Evard() { }
+Evard.prototype.run = function(Name, Token, Callback) {
+    if(Name) {
+        if(Token) {
+        
+        console.log('\u001b[' + 33 + 'm' + '(Evard Run) ' + '\u001b[0m' + `Name: ${Name} \n UserID: ${Token}`)
+            
+        if(Callback) {
+            
+            if(typeof Callback == 'function'){
+                Callback(`Bot ${Name} is ready!`, {id: '123', name: 'channel', delete: log('deleting')});
+            }
+} else { return; } } else { return; } } else { return; } }
+//Discord.js bot helper test, may come soon!
+
+
+
+
+
+
+function run(Settings, Text) {
     if(!Settings) { return ErrorLog("Didn't find Function Settings"); }
     
-    if(Settings.Function === 'font') {
-        if(Settings.message) {
+    if(Settings === 'font') {
+        //if(Font == "1") {
+            if(Text) {
                 var FontFile = require('./Font.json');        
                 if(!FontFile) {
                     ErrorLog("File not found..")
@@ -34,20 +55,18 @@ function run(Settings) {
     
                 var lines = ['', '', '', '', '', ''];
                 const letters = Font;
-                for (var i = 0; i < Settings.message.length; i++) {
-                var letter = Settings.message[i].toLowerCase();
+                for (var i = 0; i < Text.length; i++) {
+                var letter = Text[i].toLowerCase();
                 for (var j = 0; j < 1; j++) { lines[j] += letters[letter] + ' ';}
                 }
 
                 let text = lines.join('')
             return text
         } else {
-            ErrorLog("Didn't find message for: evern.on({message: 'nil'}")
+            ErrorLog("Didn't find message for: evern.on(message: 'nil'")
         }
+    //}
     
-    } else if(Settings.Function === 'add') {
-        let sfgc = Settings.one + Settings.two
-        return sfgc
     } else {
         ErrorLog("Didn't find Function for: evern.on({Function: 'nil'}")
     }
@@ -56,3 +75,4 @@ function run(Settings) {
 
 module.exports.run = run;
 module.exports.log = log;
+//module.exports.Evard = Evard;
